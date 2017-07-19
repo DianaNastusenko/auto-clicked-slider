@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="slideimage-container">
+      <div class="mySlide fade">
+        <div class="numbertext">1/4</div>
+        <img src="1.jpg" style="width: 100%" alt="">
+      </div>
+      <div class="mySlide fade">
+        <div class="numbertext">2/4</div>
+        <img src="2.jpg" style="width: 100%" alt="">
+      </div>
+      <div class="mySlide fade">
+        <div class="numbertext">3/4</div>
+        <img src="3.jpg" style="width: 100%" alt="">
+      </div>
+      <div class="mySlide fade">
+        <div class="numbertext">4/4</div>
+        <img src="4.jpg" style="width: 100%" alt="">
+      </div>
+      <a class="prev" onclick="plusSlides(-2)">&#10094;</a>
+      <a class="next" onclick="plusSlides(0)">&#10095;</a>      
+    </div>
+    <div style="text-align: center">
+      <span class="dot active" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
